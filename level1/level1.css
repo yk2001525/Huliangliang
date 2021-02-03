@@ -1,0 +1,134 @@
+* {
+        
+    margin: 0;
+    padding: 0;
+    
+}
+a {
+    text-decoration: none;
+}
+
+.login {
+    
+    
+    width: 490px;
+    height: 338px;
+    
+    margin: 100px auto;
+}
+.head {
+    margin-bottom: 12px;
+}
+.main {
+    
+    width: 436px;
+    padding: 35px 55px 30px 20px;
+}
+.psw {
+    color: rgb(0,167,222);
+    font-size: 14px;
+}
+.msg {
+    padding-left: 20px;
+    font-size: 14px;
+}
+.clear {
+    width: 414px;
+    height: 37px;
+}
+.reb {
+    float: left;
+   width: 436px;
+   height: 22px;
+   margin-bottom: 10px;
+  
+
+}
+.reb a {
+    float: right;
+    font-size: 12px;
+    color: rgb(0, 161, 214);
+    /* text-align: center; */
+    padding-top: 4px;
+}
+.lg a {
+    display: inline-block;
+    width: 184px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 15px;
+}
+.lg .g {
+    color: rgb(255, 255, 255);
+     background-color: rgb(0,179,227);
+     border: 1px solid rgb(3,129,170);
+     border-radius: 2px;
+    
+}
+.lg .f {
+    float: right;
+    color: rgb(85,85,85);
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(204,204,204);
+    border-radius: 2px;
+}
+.lg .g:hover {
+    background-color: rgb(0,190,231) ;
+}
+.lg .f:hover {
+    background-color: rgb(247,247,247) ;
+}
+.tb {
+   margin-top: 5px;
+    width: 414px;
+    height: 30px;
+}
+.tb .wb {
+    
+    /* display: inline-block; */
+    display: inline-block;
+    vertical-align: middle;
+    width: 21px;
+    height: 21px;
+    background: url(weibo1.png) no-repeat;
+}
+.tb .qq {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(QQ.png);
+    width: 21px;
+    height: 21px;
+    
+}
+input {
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    outline: none;
+}
+.checkbox {
+     cursor: pointer;
+     vertical-align: middle; 
+}
+/* .bg {
+    float: left;
+} */
+.rm {
+     margin-right: 5px; font-size: 12px; color: rgb(113,113,113);
+}
+.cmp {
+    font-size: 12px; color:rgb(187,187,187)
+}
+.e-mail {
+    width:414px; height:20px;color: rgb(170,170,170);
+}
+.passwd {
+    width:414px; height:20px; color: rgb(170,170,170);
+}
+.wbwb {
+    color: rgb(113,113,113); margin-right: 5px;font-size: 12px;
+}
+.qqqq {
+    font-size: 12px; color: rgb(113,113,113);
+}
