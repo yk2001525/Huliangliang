@@ -2,8 +2,15 @@
     margin: 0;
     padding: 0;
 }
+body {
+    overflow: scroll;
+    overflow-x:hidden;
+}
+.hd {
+    overflow:hidden; 
+}
 .w {
-    width: 1920px;
+    width: 100%;
     margin: auto;
 }       
 /* li {
@@ -22,7 +29,8 @@ nav {
 .bird {
     display: flex;
     padding-top: 10px;
-    width: 1800px;
+    /* width: 1800px; */
+    width: 95%;
     height: 40px;
     margin: auto;
     justify-content: space-between;
@@ -67,7 +75,8 @@ p {
     /* margin-left: 30px; */
     margin-top: 30px;
     padding: 30px;
-    width: 1225px;
+    /* width: 1225px; */
+    width: 64.8%;
     background-color: #fff;
     box-shadow: 3px 3px 3px #888888; 
 }
@@ -94,8 +103,10 @@ h4 {
 .rightpart {
     float: right;
     margin-right: 45px;
-    width: 530px;
+    /* width: 530px; */
+    width: 28.1%;
     background-color: #fff;
+    margin-left: 10px;
     
 }
 .mainhead {
@@ -141,12 +152,14 @@ input {
     margin-right: 3px;
 }
 .button {
-    width: 445px;
+    /* width: 445px; */
+    width: 93%;
     height: 54px;
 }
 .button button {
     border: 1px solid rgb(51,85,209);
-    width: 445px;
+    /* width: 445px; */
+    width: 100%;
     height: 54px;
    background-color: rgb(51,85,209);
    color: #fff;
@@ -190,6 +203,7 @@ input {
 }
 .special {
     background-color: rgb(204,204,204);
+    font-weight: 700;
 }
 .details4 table {
     margin-top: 20px;
@@ -213,4 +227,17 @@ footer {
     color: #fff;
     text-align: center;
     padding-top: 35px;
+}
+.list {
+    list-style:none;
+    margin-left: 25px;
+}
+.details4 ol li {
+    font-weight: 700;
+}
+.details4 ol {
+    padding-left: 50px;
+}
+.details4 td a{
+    text-decoration: underline;
 }
